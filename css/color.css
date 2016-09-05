@@ -1,0 +1,16 @@
+/* Arquivo para cores */
+
+/* Legenda das dos prefixos:
+    txt- usado para sinalizar que a formatação específica será feita em um texto;
+    bd-  usado para sinalizar que a formatação será feita nas bordas;
+    bg-  usado para sinalizar o fundo dos elementos;
+*/
+
+/* Legenda das cores:
+    Os links estão dividos assim:
+        link de voltar ao menu: .btn-voltar;
+        link no texto normal:   .link;
+        link do menu:           .link-menu;
+
+    Os fundos são por ordem que eles aparecem entao cada section diferente terá um fundo com uma cor específica;
+*/
