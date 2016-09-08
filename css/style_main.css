@@ -39,11 +39,6 @@ code
     justify-content: center;
 }
 
-.tool-acess {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
 h2
 {
@@ -76,17 +71,6 @@ section,
 article,
 footer{
     padding: 3em;
-}
-
-/* Estilos para a barra de acessibilidade */
-.tool-acess {
-    width: 12vw;
-    height: 4vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    font-size: 1.4em;
-    z-index: 1;
 }
 
 /* Butão para voltar */
