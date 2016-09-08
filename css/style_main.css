@@ -136,13 +136,12 @@ footer{
 }
 
 /* Menu de navegação e rodape */
-#menu,
-footer{
+#menu {
     width: 100%;
 }
 
 #menu li,
-footer li{
+#tag7 li {
     margin: 0.5em 0;
     font-size: 1.8em;
 }
@@ -171,4 +170,29 @@ code {
     padding: 1em;
     margin: .8em;
     font-size: 1.2em;
+}
+
+/* Footer com os colaboradores do projeto */
+#colaboradores {
+    width: 100%;
+}
+
+#colabores h3 {
+    text-align: center;
+}
+
+#colaboradores div {
+    width: 6em;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.posters {
+    overflow: hidden;
+}
+
+#colaboradores img{
+    max-width: 100%;
+    border-radius: 50%;
 }

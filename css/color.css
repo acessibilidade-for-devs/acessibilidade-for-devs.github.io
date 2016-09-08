@@ -24,16 +24,13 @@
 }
 
 .intro,
-.citacao {
+.citacao,
+#colaboradores {
     background-color: #3F1F98;
 }
 
 #menu {
     background-color: #F7F169;
-}
-
-#tag1 {
-    background-color: #363636;
 }
 
 .tool-acess,
@@ -52,16 +49,13 @@ article{
     background-color: #2A0DF7;
 }
 
+#tag1,
 #tag5 {
     background-color: #363636;
 }
 
-#tag1 {
-    background-color: #363636;
-}
-
-footer {
-    background-color: #363636;
+#tag7 {
+    background-color: #505050;
 }
 
 /* Estilizando os links */
@@ -91,6 +85,7 @@ footer {
 #tag4 h2,
 #tag4,
 #tag5,
+#tag7,
 footer{
     color: #FFF;   
 }
