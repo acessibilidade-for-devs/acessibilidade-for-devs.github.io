@@ -91,7 +91,7 @@ footer{
 
 /* Butão para voltar */
 .btn-menu {
-    padding: .5em;
+    padding: 1em;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -118,6 +118,13 @@ footer{
 
 .section-one h3 {
     font-size: 3.6em;
+}
+
+/* Area do fork */
+.fork-projeto {
+    padding: 1em;
+    font-size: 1.8em;
+    text-align: center;
 }
 
 /* Introdução */

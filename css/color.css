@@ -17,10 +17,17 @@
 */
 
 /* Estilizando as fontes*/
+.section-one {
+    text-shadow: 2px 2px 6px #000;
+}
 
 /* Estilizando as cores de fundo */
 .section-one {
     background-color: #27174C;
+}
+
+.fork-projeto {
+    background-color: #180e31;
 }
 
 .intro,
@@ -55,7 +62,7 @@ article{
 }
 
 #tag7 {
-    background-color: #505050;
+    background-color: #27174C;
 }
 
 /* Estilizando os links */
@@ -78,6 +85,7 @@ article{
 
 /* Estilizando as cores de texto */
 .section-one,
+.fork-projeto a,
 .intro,
 .citacao,
 #tag1,
@@ -86,7 +94,7 @@ article{
 #tag4,
 #tag5,
 #tag7,
-footer{
+footer {
     color: #FFF;   
 }
 
