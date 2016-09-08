@@ -185,3 +185,14 @@ code {
     max-width: 100%;
     border-radius: 50%;
 }
+
+/* Media query para design responsivo */
+@media screen and (max-width: 500px) {
+    .section-one h1 {
+        font-size: 2.8em;
+    }
+    
+    .section-one h3 {
+        font-size: 2.4em;
+    }
+}
