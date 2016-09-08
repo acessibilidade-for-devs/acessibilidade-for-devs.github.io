@@ -161,6 +161,10 @@ article {
     box-shadow: 1px 1px 4px #363636;
 }
 
+article li {
+    list-style: inside square;
+}
+
 /* Tag code */
 code {
     width: 80%;
