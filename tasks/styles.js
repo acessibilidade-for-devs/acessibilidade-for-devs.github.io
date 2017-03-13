@@ -6,7 +6,7 @@ const rename = require('gulp-rename')
 
 module.exports = function (args, reload) {
   gulp.task('sass', function () {
-    gulp.src('./src/assets/sass/**/*.sass')
+    gulp.src('./src/assets/sass/*.sass')
       .pipe(sass().on('error', sass.logError))
       .pipe(gulpif(args.production, gulp.dest('./static/css/')))
       .pipe(gulpif(args.production, minifyCss()))

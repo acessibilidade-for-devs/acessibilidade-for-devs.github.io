@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8" />
+		<meta name="author" content="Emanuel Gonçalves Santana de Souza" />
+		<meta name="description" content="Um Guia para quem é Desenvolvedor Web e não sabe como tornar seu site acessível" />
+		<meta name="keywords" content="Acessibilidade, Desenvolvimento Web" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <!-- Link para a font do Google -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+
+        <!-- Link para o CSS -->
+		<link href="css/style_main.css" rel="stylesheet" />
+
+        <!-- Link para o CDN no Font Awesome -->
+        <script src="https://use.fontawesome.com/04f7bdc68d.js"></script>
+
+        <!-- Título da página -->
+		<title> Guia de Acessibilidade para Desenvolvedores Web </title>
+	</head>
+	<body>
+		<!-- Cabeçalho da página -->
+
+		<!-- Conteúdo -->
+		<section id="tag1">
+			<h2> O que acessibilidade na Web? </h2>
+			<p> Acessibilidade é a capacidade de ser acessível, isto é, que possa ser acessível um conteúdo, a diferentes dispositivos ou diferentes usuários. É aqui entra uma questão interessante: tornar a web acessível não vai beneficiar somente deficientes. Mas também, qualquer usuário que, por acaso, esteja com uma internet lenta em um determinado momento. Ou um outro usuário que precisa utilizar um smartphone com somente uma mão. Ou um outro usuário que esteja com uma deficiência provisória, como uma cirurgia no olhos. Ou seja, tornar a internet acessível, não é somente para leitores de tela ou braile. É uma necessidade. Há diferentes usuários em diferentes situações e disponibilizar o conteúdo de forma que todos possam acessá-lo é uma contribuição para que a internet se torne universal. Há mais exemplo de situações em que uma aplicação ser acessível é importante <a href="http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html#capitulo3" title="Ir para a publicação traduzida sobre Introdução a Acessibilidade na Web, da W3C" class="link-y" target="blanck"> neste link </a> </p>
+
+            <a href="#menu" title="Ir para o menu" class="btn-menu"> <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+		</section>
+
+		<section id="tag2">
+			<h2> Por que um site deve ser acessível?  </h2>
+			<p> Segundo o censo do IBGE (Instituto Brasileiro de Geografia e Estatística), em 2010, há 45.606.048 de brasileiros, 23,9% da população total, <a href="http://www.pessoacomdeficiencia.gov.br/app/sites/default/files/publicacoes/cartilha-censo-2010-pessoas-com-deficienciareduzido.pdf" title="Arquivo PDF com o Censo do IBGE sobre pessoas com deficiência"  class="link-r" target="blanck">com algum tipo de deficiência</a>. Se formos para uma amplitude mundial, há mais de <a href="https://nacoesunidas.org/acao/pessoas-com-deficiencia/" title="Ir para o site das Nações Unidas, na seção sobre pessoas com deficiencia" class="link-r" target="blanck">650 milhoes de pessoas com alguns tipo de deficiência</a> Logo, é importante não deixar que o conteúdo web não seja acessível a essas pessoas. A obrigatoriedade de um site ser acessível não deve ser só uma responsabilidade de sites governamentais, antes de toda uma web que pretender ser universal. </p>
+
+            <a href="#menu" title="Ir para o menu" class="btn-menu"> <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+		</section>
+
+		<section id="tag3">
+			<h2> Quais as tecnologias para acessibilidade? </h2>
+
+			<p><span class="txt-bold">Leitor de tela</span>: permite ao usuário com deficiência visual “ouvir” o conteúdo web que está na tela do dispositivo </p>
+
+			<p><span class="txt-bold">Navegador Textual</span>: este tipo de navegador preza pelo carregamento somente de textos, não carregando imagens e conteúdos ilustrativos. Usado por deficientes visuais ou conexão lenta</p>
+
+			<p><span class="txt-bold">Display em Braile</span>: este dispositivo de saída imprime textos em braile para deficientes visuais. A partir de circuitos eletrônicos e mecânicos, ele imprime as letras em um dispositivo tátil no sistema braile</p>
+
+			<p><span class="txt-bold">Navegador com voz</span>: permite a navegação através de comandos de voz. Usado por pessoas com alguma incapacitação motora </p>
+
+            <p> <span class="txt-bold">Ampliador de tela</span>: são softwares que ampliem os textos na tela para pessoas com dificuldade de enxergar </p>
+
+            <a href="#menu" title="Ir para o menu" class="btn-menu"> <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+		</section>
+
+		<section id="tag4">
+			<h2> Boas práticas em desenvolvimento de sites </h2>
+			<p> A seguir, dicas simples que podem tornar seu site já acessível </p>
+
+			<article>
+				<h3> Especifique o idioma do seu site </h3>
+				<p> Use o atributo <span class="txt-italic">lang</span> do HTML 5 na página, de preferência, no elemento html. Se caso, em alguma parte do site, houver um texto de linguagem diferente da linguagem principal, também especifique o idioma de leitura daquele texto </p>
+			</article>
+
+			<article>
+				<h3> Use a semântica do HTML 5 </h3>
+				<p> Alguns leitores de tela leem um parágrafo da seguinte forma: “paragrafo: [ texto que você colocou ]”. Ou seja, eles foram programados para entenderem a semântica HTML, portanto, a use!
+			</article>
+
+			<article>
+				<h3> Coloque âncoras no topo da página para partes importantes do seu site </h3>
+				<p> Imagine um leitor de tela ter que ler cada menu e submenu da página, em um site de notícias que o usuário entrou para uma notícia específica? Por isso, é importante colocar, no topo, um link para a parte mais importante do site, no caso, a notícia principal </p>
+			</article>
+
+			<article>
+				<h3> Coloque uma barra de acessibilidade no topo do site </h3>
+				<p> Itens que precisam estar lá: alto contraste (colocar o fundo preto com letras brancas) e recurso para aumenta ou diminuir a fonte. </p>
+			</article>
+
+			<article>
+				<h3> Recurso de alto contraste </h3>
+				<p> Fundo preto, links geralmente amarelos, e contornos e linhas brancas, e letras brancas. Experimente, use este recurso neste site </p>
+			</article>
+
+			<article>
+				<h3> Possibilite uma navegação via teclado </h3>
+				<p> Ofereça uma navegação via teclado, a partir de teclas de atalhos e afins. Alguns leitores de tela, já vem com algumas teclas de atalho importantes, como vá para o conteúdo principal etc. Use também o atributo <span class="txt-italic">tabindex</span> do HTML para possibilitar uma navegação hierárquica pela tecla TAB </p>
+			</article>
+
+			<article>
+				<h3> Verifique o contraste textual do seu site </h3>
+				<p> Há ferramentas interessantes, uma delas é o <a href="http://www.checkmycolours.com/" title="Ir para o site Check My Colours que tem uma ferramenta para testar o contraste textual" class="link-r" target="blanck">Check My Colours</a> </p>
+			</article>
+
+			<article>
+				<h3> Coloque uma linguagem de sinais (libras) no site </h3>
+				<p> Segundo a <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/L10436.htm" title="Ir para o site do Planalto na página da Lei 10.436/2002, que institui a linguagem de libras como a segunda oficial no Brasil" class="link-r" target="blanck">Lei 10.436/2002</a>, libras é a segunda língua oficial no país e para muitos surdos é a principal língua. Há uma plugin, o <a href="http://www.weblibras.com.br/" title="Ir para o site do Web Libras" class="link-r" target="blanck">ProfDeaf Web Libras</a> que faz isso para você. Há planos gratuitos a pagos </p>
+			</article>
+
+			<article>
+				<h3> Não dependa de cores! </h3>
+				<p> Assegure que a informação de um determinado elemento, como um link, não depende cores. Por exemplo, um botão que seja verde indicando uma ação positiva, poderá não ser interpretado completamente por um daltônico </p>
+			</article>
+
+			<p> A seguir, algumas recomendações da W3C para o desenvolvimento de sites acessíveis </p>
+
+            <a href="#menu" title="Ir para o menu" class="btn-menu"> <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+		</section>
+
+		<section id="tag5">
+			<h2> WCAG – Recomendações de Acessibilidade para o conteúdo Web </h2>
+
+			<p> A WCAG é um conjunto de recomendações da W3C para que o conteúdo Web seja acessível. Ela tem como objetivo fornecer técnicas de codificação para que o conteúdo se torne acessível. Sua primeira versão, de 1999, já previa inúmeras técnicas. Atualmente, em 2016, estamos na versão WCAG 2.0, que modificou estruturalmente a versão anterior e está dividida em: </p>
+
+			<ul>
+				<li> <span class="txt-bold">Princípios</span>: são a base para a acessibilidade na Web </li>
+				<li> <span class="txt-bold">Diretrizes</span>: são os 12 objetivos básicos sobre os princípios </li>
+				<li> <span class="txt-bold">Critérios de sucesso</span>: para cada diretriz, há critérios para as cumpri-las, que vão de A (mais baixo) a AAA (mais alto) </li>
+				<li> <span class="txt-bold">Técnicas de tipo suficientes e aconselhadas</span>: suficientes são as que já cumprem as diretrizes, porem as aconselhadas são as que vão além de inúmeras barreiras de acessibilidade </li>
+			</ul>
+
+			<p> Abaixo, segue um resumo de cada princípio com as diretrizes principais e técnicas para as cumprir: </p>
+
+            <!-- Descrição das diretrizes da WCAG -->
+			<article>
+
+                <!-- Principio 1 -->
+				<h3> <span class="txt-bold">Perceptível</span>: <span class="txt-italic">o usuário deve perceber o conteúdo, não podendo ser invisível para todos os sentidos</span> </h3>
+
+				<h4> <span class="txt-bold">Diretriz 1.1 – alternativa em texto</span> </h4>
+
+				<ul>
+                    <li> <span class="txt-bold">Dica 1 </span>: use o atributo alt para as imagens. Ex.:
+						<code>
+                            <span class="tagHtml">&lt;</span><span class="nameTag">img</span> <span class="attrTag">src</span>=<span class="aspasTag">"logo.jpg"</span> <span class="attrTag">alt</span>=<span class="aspasTag">"Este é o Logo da Empresa"</span><span class="tagHtml">&gt;</span>
+						</code>
+					</li>
+					<li> <span class="txt-bold">Dica 2</span>: caso se tem um gráfico ou diagrama, é recomendado que tenha um link para uma página explicando aquele diagrama, por exemplo, se aquele diagrama veio de um pesquisa do IBGE, ou um texto próximo ao diagrama o explicando </li>
+					<li><span class="txt-bold">Dica 3</span>: caso você tenha um formulário, basta indexar os inputs aos respectivos labels, ou colocar um title nos inputs caso ELES NÃO POSSUAM LABEL, ou para inputs tipo img, colocar um alt.
+                        Ex.: 1
+                        <code>
+                            <span class="tagHtml">&lt;</span><span class="nameTag">label</span> <span class="attrTag">for</span>=<span class="aspasTag">"email"</span><span class="tagHtml">&gt;</span> Insira seu email <span class="tagHtml">&lt;</span><span class="nameTag">label</span><span class="tagHtml">&gt;</span>
+                            <span class="tagHtml">&lt;</span><span class="nameTag">input</span> <span class="attrTag">type</span>=<span class="aspasTag">"email"</span> <span class="attrTag">id</span>=<span class="aspasTag">"email"</span><span class="tagHtml">&gt;</span>
+                        </code>
+
+                        Ex.: 2
+                        <code>
+                            <span class="tagHtml">&lt;</span><span class="nameTag">input</span> <span class="attrTag">type</span>=<span class="aspasTag">"text"</span> <span class="attrTag">title</span>=<span class="aspasTag">"Código de Área"</span><span class="tagHtml">&gt;</span>
+                        </code>
+
+                        Ex.: 3
+                        <code>
+                            <span class="tagHtml">&lt;</span><span class="nameTag">input</span> <span class="attrTag">type</span>=<span class="aspasTag">"img"</span> <span class="attrTag">alt</span>=<span class="aspasTag">"Enviar Formulário"</span><span class="tagHtml">&gt;</span>
+                        </code>
+                    </li>
+
+                    <li> <span class="txtx-bold"> Dica 4 </span>: o elemento não textual deve ser ignorado pelas tecnologias assistivas. Basta inserir este elemento via CSS. Ex.:
+                        <code>
+                            <span class="nameTag">div</span> {
+                            <span class="attrTag">background</span>
+                            : ulr(<span class="aspasTag">‘imagens/minha_imagem.jpg’</span>) no-repeat;
+                            }
+                        </code>
+                    </li>
+				</ul>
+
+                <h4> <span class="txt-bold">Diretriz 1.2 - conteúdo em áudio e vídeo</span> </h4>
+
+                <ul>
+                    <li> <span class="txt-bold"> Dica 1 </span>: ofereça um texto alternativo, como uma transcrição do vídeo ou do áudio, próximo à mídia. Exemplo disso é o site de palestra <a href="https://www.ted.com" title="Ir para site de palestras TED" class="link-r" target="blanck">TED</a> </li>
+                    <li> <span class="txt-bold"> Dica 2 </span>: como já exposto aqui, ofereça uma possibilidade de colocar linguagem de sinais </li>
+                </ul>
+
+                <h4> <span class="txt-bold">Diretriz 1.3 – adaptável</span> </h4>
+
+                <ul>
+                    <li> <span class="txt-bold"> Dica 1 </span>: use bastante a semântica HTML. Dicas e mais dicas não caberiam aqui. No final da página, há artigos sobre a semântica HTML </li>
+                    <li> <span class="txt-bold"> Dica 2 </span>: como já dito aqui e repito: não faça com que o conteúdo dependa da sua forma, cor ou qualquer característica sensorial </li>
+                </ul>
+
+                <h4> <span class="txt-bold">Diretriz 1.4 – discernível</span> </h4>
+
+                <ul>
+                    <li> <span class="txt-bold"> Dica 1 </span>: forneça formas para que o usuário possa modificar o tamanho das fontes </li>
+                    <li> <span class="txt-bold"> Dica 2 </span>: forneça formas para que o usuário dê alto contraste na página </li>
+                    <li> <span class="txt-bold"> Dica 3 </span>: caso o site tenha áudio automático, após 3 segundos o usuário deve ter uma forma de controlar este áudio </li>
+                    <li> <span class="txt-bold"> Dica 4 </span>: a página deve possuir um contraste para leitura. Link de referência: <a href="https://www.w3.org/Translations/WCAG20-pt-br/#visual-audio-contrast" title="Ir para as recomendações da WCAG sobre o contraste visual" class="link-r" target="blanck"> Site da W3C </a> </li>
+                </ul>
+            </article>
+            <article>
+                <!-- Principio 2 -->
+                <h3> <span class="txt-bold">Operável</span>: <span class="txt-italic">o conteúdo deve ser acessível de forma que qualquer usuário possa interagir com ele</span> </h3>
+
+				<h4> <span class="txt-bold">Diretriz 2.1 – acessível via teclado</span> </h4>
+
+                <ul>
+                    <li><span class="txt-bold"> Dica 1 </span>: ofereça uma navegação alternativa via teclado. Para tanto, utilize o atributo tabindex do HTML caso queira estabelecer uma ordem de foco para os elementos. Lembre-se: link, por padrão, já recebem foco </li>
+                    <li><span class="txt-bold"> Dica 2 </span>: não deixe que o usuário fique bloqueado na página devido a falta de um teclado </li>
+                </ul>
+
+                <h4> <span class="txt-bold">Diretriz 2.2 – tempo suficiente</span>: dê ao usuário tempo suficiente para navegar pela página e ler o conteúdo </h4>
+
+                <h4> <span class="txt-bold">Diretriz 2.3 – convulsões</span>: não coloque elementos na página que pisquem mais de 3 vezes num segundo. Quem não se lembra do caso polêmico envolvendo o desenho animado <a href="http://hypescience.com/como-pokemon-fez-o-exercito-dos-eua-sonhar-com-uma-arma-de-convulsoes/" title="Ir para a página de noticias da Hypescience sobre a polêmica do desenho Pokemon" class="link-r" target="blanck">Pokémon</a> </h4>
+
+                <h4> <span class="txt-bold">Diretriz 2.4 – navegável</span> </h4>
+
+                <ul>
+                    <li> <span class="txt-bold"> Dica 1 </span>: coloque um link no início da página para o conteúdo principal </li>
+                    <li> <span class="txt-bold"> Dica 2 </span>: utilize sempre cabeçalhos para estruturar os títulos das seções da página </li>
+                    <li> <span class="txt-bold"> Dica 3 </span>: crie uma sequência lógica entre os links da página </li>
+                    <li> <span class="txt-bold"> Dica 4 </span>: utilize breadcrumbs no topo da seção para que o usuário saiba onde está na página, ou num conjunto de páginas </li>
+                </ul>
+			</article>
+
+            <article>
+                <!-- Principio 3 -->
+                <h3> <span class="txt-bold">Compreensível</span>: <span class="txt-italic">toda a interface precisa ser intuitiva, compreensível</span> </h3>
+
+                <h4> <span class="txt-bold">Diretriz 3.1 – legível</span>: utilize o atributo <span class="txt-italic">lang</span> do HTML para que os mecanismo de leitura de tela possam saber em qual linguagem está aquela página </h4>
+
+                <h4> <span class="txt-bold">Diretriz 3.2 – previsível</span> </h4>
+
+                <ul>
+                    <li><span class="txt-bold"> Dica 1 </span>: não crie menus dropdowns que ao usuário passar o mouse, os links relacionados sejam mostrados abaixo, dificultando sua interação </li>
+                    <li><span class="txt-bold"> Dica 2 </span>: não modifique um estado automaticamente a menos que você avise ao usuário que isso irá acontecer </li>
+                </ul>
+
+                <h4> <span class="txt-bold">Diretriz 3.3 – Assistência de entrada</span> </h4>
+
+                <ul>
+                    <li><span class="txt-bold"> Dica 1 </span>: forneça mecanismos para que o usuário não cometa erros </li>
+                    <li><span class="txt-bold"> Dica 2 </span>: caso o usuário cometa erros, o informe qual erro cometeu e como corrigi-lo </li>
+                </ul>
+            </article>
+
+            <article>
+                <!-- Principio 4 -->
+                <h3> <span class="txt-bold">Robusto</span>: <span class="txt-italic">O conteúdo deve ser colocado de forma que qualquer usuário possa acessa-lo com qualquer tecnologia de acesso a web</span> </h3>
+
+                <h4> <span class="txt-bold">Diretriz 4.1 – compatível</span>: use e abuse da semântica HTML e construa páginas que possam ser compatíveis com a maioria dos dispositivos, inclusive com tecnologias assistivas </h4>
+            </article>
+
+            <p> Até agora, você já viu inúmeras recomendações e outras há no site da W3C. Porem, há situações em que a semântica HTML nãpo dá conta. É necessário estender essa semântica. O próxim tópico trata da solução para este problema: a WAI-ARIA </p>
+
+            <a href="#menu" title="Ir para o menu" class="btn-menu"> <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+		</section>
+
+        <!-- Abordando um pouco a WAI-ARIA -->
+		<section id="tag6">
+			<h2> WAI-ARIA – Tornando a Web ainda mais semântica </h2>
+
+            <p> O HTML 5 tornou a web muito semântica, trazendo tag novas como header, footer, nav, section, aside entre outras. Porem, há situações em que estes elementos são insuficientes para leitores de tela, como por exemplo, um menu drop-down. Ai surgiu o WAI-ARIA. O objetivo dela é fazer com que o conteúdo web seja mais acessível às tecnologias assistivas, como leitores de tela. Ela é uma recomendação da W3C, e independe de versão do HTML, sendo usada fora do HTML 5. A WAI-ARIA contém as roles e as arias: </p>
+
+            <h3> <span class="txt-bold"> Roles: </span> </h3>
+            <ul>
+                <li><span class="txt-italic"> Abstract Roles </span>: definem conceitos gerais </li>
+                <li><span class="txt-italic"> Widgets Roles </span>: definem widgtes da interface do usuário. Geralmente interfaces soltas, como caixa de diálogo, alertas etc </li>
+                <li><span class="txt-italic"> Document Structure Roles </span>: definem conteúdos estruturais da página, como cabeçalho, artigos etc </li>
+                <li><span class="txt-italic"> Landmark Roles </span>: definem áreas de navegação na página </li>
+            </ul>
+
+            <h3> <span class="txt-bold"> Estados e propriedades: </span> </h3>
+
+            <p>Um determinado elemento pode assumir um determinado estado. Para tanto, há as arias, que definem uma determinada propriedade e para tal, um determinado estado. Exemplo: uma popup modal, ela terá a propriedade haspopup que poderá estar como true ou false. Isso facilita ao leitor de tela identificar que aquele elemento, uma div por exemplo, é um modal popup, que está ativado ou não </p>
+
+            <p> A seguir, links interessantes para você estudar e ver alguns exemplos práticos de como aplicar a WAI-ARIA no seu HTML, e também o link da documentação da W3C (em inglês) </p>
+
+            <ul>
+                <li> <a href="http://slides.com/talitapagani/wcag-aria-webbr2015#/1" title="Ir para a apresentação de slides da Talita Paggani sobre as WAI-ARIAS" class="link-r" target="blanck"> Slides de uma conferência feita pela Talita Paggani </a> </li>
+                <li> <a href="http://tableless.com.br/wai-aria-estendendo-o-significado-das-interacoes/" title="Ir para o artigo do Tableless sobre as WAI-ARIAs" class="link-r" target="blanck"> Artigo muito interessante do Tableless </a> </li>
+                <li> <a href="https://www.w3.org/TR/wai-aria/states_and_properties" title="Consultar a documentação completa da W3C sobre os estados e propriedades das roles" class="link-r" target="blanck"> Um descrição detelhada de cada estado e propriedade direto da documentação da W3C </a> </li>
+                <li> <a href="https://www.w3.org/TR/wai-aria/roles#roles_categorization" title="Consultar a documentação completa da W3C sobre as roles" class="link-r" target="blanck"> Outra descrição detelhada de cada role direto da documentação da W3C </a> </li>
+            </ul>
+
+            <a href="#menu" title="Ir para o menu" class="btn-menu"> <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+		</section>
+
+		<section id="tag7">
+			<h2> Onde encontrar mais conteúdo? </h2>
+
+            <ul>
+                <li> <a href="www.acessibilidadelegal.com/" title="Ir para o site brasileiro de Acessibilidade na Internet" class="link-y" target="blanck"> Site da Acessibilidade Legal </a> </li>
+
+                <li> <a href="www.bengalalegal.com/acessibilidade" title="Ir para o site do Bengala Legal" class="link-y" target="blanck"> Site da Bengala Legal </a> </li>
+
+                <li> <a href="http://tableless.com.br/semantica/acessibilidade-2/" title="Consultar o arquivo do Tableless sobre acessibilidade" class="link-y" target="blanck"> Arquivo da comunidade do Tableless sobre Acessibilidade </a> </li>
+
+                <li> <a href="http://www.maujor.com/w3c/tec_css_acess.html" title="Ir para o site do Maujor, na página em que foi traduzida as recomendações CSS da W3C sobre acessibilidade" class="link-y" target="blanck"> Técnicas CSS para Acessibilidade no site do Maujor</a> </li>
+
+                <li> <a href="https://validator.w3.org/" title="Ir para o Validador de Código HTML da W3C" class="link-y" target="blanck"> Validação de Código HTML da W3C</a> </li>
+
+                <li> <a href="https://jigsaw.w3.org/css-validator/" title="Ir para o validador de código CSS da W3C" class="link-y" target="blanck">Validação de Código CSS da W3C</a> </li>
+            </ul>
+
+            <a href="#menu" title="Ir para o menu" class="btn-menu"> <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+		</section>
+		<footer id="colaboradores">
+                <h2> Conheça quem trabalha no projeto </h2>
+                <div>
+                    <a href="https://github.com/emanuelgsouza" class="posters" target="blanck">
+                        <img src="img/emanuel.jpg" alt="Foto de Emanuel Gonçalves, criador e mantenedor deste site" />
+                    </a>
+                    <p> Emanuel G - Criador </p>
+                </div>
+            </footer>
+	</body>
+</html>

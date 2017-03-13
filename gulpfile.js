@@ -17,7 +17,7 @@ const dependences = ['sass', 'imagemin', 'compilePug','htmlmin', 'script']
 gulp.task('default', dependences, function () {
   br.init({
     server: {
-      baseDir: './dist',
+      baseDir: './',
       index: 'index.html'
     }
   })
