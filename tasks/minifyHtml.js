@@ -1,6 +1,6 @@
-const gulp = require('gulp');
-const htmlmin = require('gulp-htmlmin');
-const gulpif = require('gulp-if');
+const gulp = require('gulp')
+const htmlmin = require('gulp-htmlmin')
+const gulpif = require('gulp-if')
 
 module.exports = function (args, reload) {
   gulp.task('htmlmin', function () {
@@ -11,7 +11,7 @@ module.exports = function (args, reload) {
           removeComments: true
         }
       )))
-      .pipe(gulp.dest('./dist'));
-    if (!args.production) reload();
-  });
-};
+      .pipe(gulp.dest('./'))
+    if (!args.production) reload()
+  })
+}

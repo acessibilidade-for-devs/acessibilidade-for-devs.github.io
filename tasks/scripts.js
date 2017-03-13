@@ -1,8 +1,8 @@
-const gulp = require('gulp');
+const gulp = require('gulp')
 
 module.exports = function (args, reload) {
   gulp.task('script', function () {
-    gulp.src('./src/**/*.js').pipe(gulp.dest('./dist/'));
-    if (!args.production) reload();
-  });
-};
+    gulp.src('./src/**/*.js').pipe(gulp.dest('./static/js'))
+    if (!args.production) reload()
+  })
+}

@@ -5,7 +5,7 @@ module.exports = function (args, reload) {
   gulp.task('compilePug', () => {
     gulp.src('./src/templates/*.pug')
       .pipe(pug({}))
-      .pipe(gulp.dest('./dist'))
-    if (!args.production) reload();
+      .pipe(gulp.dest('./'))
+    if (!args.production) reload()
   })
 }
