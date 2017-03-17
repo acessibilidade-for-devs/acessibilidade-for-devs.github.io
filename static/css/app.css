@@ -305,6 +305,11 @@ table {
     .section.section--one .section__link {
       color: inherit;
       text-decoration: underline; }
+  .section.section--three {
+    background-color: #32383B; }
+    .section.section--three .section__title,
+    .section.section--three .section__content {
+      color: white; }
   .section .section__title {
     text-align: center;
     font-weight: bold;
@@ -312,6 +317,8 @@ table {
     margin-bottom: 1em; }
   .section .section__content {
     font-size: 1.1em; }
+    .section .section__content .section__content--bold {
+      font-weight: bold; }
 
 .link__menu {
   position: absolute;
