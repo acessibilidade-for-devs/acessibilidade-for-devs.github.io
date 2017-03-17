@@ -296,3 +296,29 @@ table {
         transition: all .4s ease-in; }
       .header .header__menu .header__menu__link a:hover + span {
         width: 50%; }
+
+.section {
+  padding: 2em;
+  position: relative; }
+  .section.section--one {
+    background-color: #63C8BA; }
+    .section.section--one .section__link {
+      color: inherit;
+      text-decoration: underline; }
+  .section .section__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 1em; }
+  .section .section__content {
+    font-size: 1.1em; }
+
+.link__menu {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  display: block;
+  color: white;
+  border-radius: 2px; }
+  .link__menu:hover {
+    color: rgba(255, 255, 255, 0.5); }
