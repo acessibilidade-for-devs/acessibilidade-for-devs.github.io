@@ -78,7 +78,7 @@ th {
   text-align: left; }
 
 html {
-  background-color: white;
+  background-color: #efecec;
   font-size: 14px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -116,7 +116,7 @@ body {
   line-height: 1.5; }
 
 a {
-  color: #00d1b2;
+  color: #008873;
   cursor: pointer;
   text-decoration: none;
   transition: none 86ms ease-out; }
@@ -322,3 +322,8 @@ table {
   border-radius: 2px; }
   .link__menu:hover {
     color: rgba(255, 255, 255, 0.5); }
+
+.section--two .link__menu {
+  color: black; }
+  .section--two .link__menu:hover {
+    color: rgba(0, 0, 0, 0.5); }
