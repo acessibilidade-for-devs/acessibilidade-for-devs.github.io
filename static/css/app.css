@@ -354,6 +354,9 @@ table {
   .section--five .section__article .section__content {
     color: #4a4a4a; }
 
+.section--six .section__article {
+  border: 1px solid #688CD2; }
+
 .link__menu {
   position: absolute;
   bottom: 1em;
@@ -365,8 +368,10 @@ table {
     color: rgba(255, 255, 255, 0.5); }
 
 .section--two .link__menu,
-.section--four .link__menu {
+.section--four .link__menu,
+.section--six .link__menu {
   color: black; }
   .section--two .link__menu:hover,
-  .section--four .link__menu:hover {
+  .section--four .link__menu:hover,
+  .section--six .link__menu:hover {
     color: rgba(0, 0, 0, 0.5); }
