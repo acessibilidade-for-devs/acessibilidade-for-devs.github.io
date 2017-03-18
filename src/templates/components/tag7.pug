@@ -1,0 +1,48 @@
+section(
+  id="tag6"
+  class="section section--six"
+  )
+  h2.section__title WAI-ARIA – Tornando a Web ainda mais semântica
+
+  p.section__content O HTML 5 tornou a web muito semântica, trazendo tag novas como header, footer, nav, section, aside entre outras. Porem, há situações em que estes elementos são insuficientes para leitores de tela, como por exemplo, um menu drop-down. Ai surgiu o WAI-ARIA. O objetivo dela é fazer com que o conteúdo web seja mais acessível às tecnologias assistivas, como leitores de tela. Ela é uma recomendação da W3C, e independe de versão do HTML, sendo usada fora do HTML 5. A WAI-ARIA contém as roles e as arias:
+
+  article.section__article
+    h3.section__article__title Roles:
+
+    ul
+      li.section__content Abstract Roles: definem conceitos erais
+      li.section__content Widgets Roles: definem widgtes da nterface do usuário. Geralmente interfaces soltas, como caixa de iálogo, alertas etc
+      li.section__content Document Structure Roles: definem onteúdos estruturais da página, como cabeçalho, artigos etc
+      li.section__content Landmark Roles: definem áreas de avegação na página
+
+  article.section__article
+    h3.section__article__title Estados e propriedades:
+
+    p.section__content Um determinado elemento pode assumir um determinado estado. Para tanto, há as arias, que definem uma determinada propriedade e para tal, um determinado estado. Exemplo: uma popup modal, ela terá a propriedade haspopup que poderá estar como true ou false. Isso facilita ao leitor de tela identificar que aquele elemento, uma div por exemplo, é um modal popup, que está ativado ou não
+
+  article.section__article
+    p.section__content A seguir, links interessantes para você estudar e ver alguns exemplos práticos de como aplicar a WAI-ARIA no seu HTML, e também o link da documentação da W3C (em inglês)
+
+    ul
+      li.section__content
+        a(
+          href="http://slides.com/talitapagani/wcag-aria-webbr2015#/1"
+          title="Ir para a apresentação de slides da Talita Paggani sobre as WAI-ARIAS"
+          target="blanck") Slides de uma conferência feita pela Talita Paggani
+      li.section__content
+        a(
+          href="http://tableless.com.br/wai-aria-estendendo-o-significado-das-interacoes/"
+          title="Ir para o artigo do Tableless sobre as WAI-ARIAs"
+          target="blanck") Artigo muito interessante do Tableless
+      li.section__content
+        a(
+          href="https://www.w3.org/TR/wai-aria/states_and_properties"
+          title="Consultar a documentação completa da W3C sobre os estados e propriedades das roles"
+          target="blanck") Um descrição detelhada de cada estado e propriedade direto da documentação da W3C
+      li.section__content
+        a(
+          href="https://www.w3.org/TR/wai-aria/roles#roles_categorization"
+          title="Consultar a documentação completa da W3C sobre as roles"
+          target="blanck") Descrição detelhada de cada role direto da documentação da W3C
+
+  include ../includes/link-menu.pug
