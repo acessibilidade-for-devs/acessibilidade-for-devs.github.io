@@ -312,6 +312,13 @@ table {
     .section.section--five .section__title,
     .section.section--five .section__content {
       color: white; }
+  .section.section--seven {
+    background-color: #22AA77; }
+    .section.section--seven .section__title,
+    .section.section--seven .section__content a {
+      color: white; }
+    .section.section--seven .section__content a:hover {
+      color: #4a4a4a; }
   .section .section__title {
     text-align: center;
     font-weight: bold;
