@@ -307,13 +307,19 @@ table {
     .section.section--three .section__title,
     .section.section--three .section__content {
       color: white; }
+  .section.section--five {
+    background-color: #688CD2; }
+    .section.section--five .section__title,
+    .section.section--five .section__content {
+      color: white; }
   .section .section__title {
     text-align: center;
     font-weight: bold;
     font-size: 1.8em;
     margin-bottom: 1em; }
   .section .section__content {
-    font-size: 1.1em; }
+    font-size: 1.1em;
+    margin: 1em 0; }
     .section .section__content .section__link:hover {
       color: inherit;
       text-decoration: underline; }
@@ -327,9 +333,26 @@ table {
   .section .section__article .section__article__title {
     font-weight: bold;
     font-size: 1.2em; }
+    .section .section__article .section__article__title span {
+      display: block;
+      width: 80%;
+      height: 2px;
+      background-color: #688CD2;
+      margin-bottom: 1em; }
+  .section .section__article .section__article__code {
+    display: block;
+    padding: 1em;
+    color: #20313B;
+    background-color: #efecec;
+    margin: .5em 0; }
 
 .section--four .section__article {
   border: 1px solid #688CD2; }
+
+.section--five .section__article {
+  background-color: #FFF; }
+  .section--five .section__article .section__content {
+    color: #4a4a4a; }
 
 .link__menu {
   position: absolute;
