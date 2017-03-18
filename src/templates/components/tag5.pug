@@ -1,0 +1,49 @@
+section(
+  id="tag4"
+  class="section section--four"
+  )
+  h2(class="section__title") Boas práticas em desenvolvimento de sites
+
+  article(class="section__article")
+    h3(class="section__article__title") Especifique o idioma do seu site
+    p(class="section__content") Use o atributo lang do HTML 5 na página, de preferência, no elemento html. Se caso, em alguma parte do site, houver um texto de linguagem diferente da linguagem principal, também especifique o idioma de leitura daquele texto
+
+  article(class="section__article")
+    h3(class="section__article__title") Use a semântica do HTML 5
+    p(class="section__content") Alguns leitores de tela leem um parágrafo da seguinte forma: “paragrafo: [ texto que você colocou ]”. Ou seja, eles foram programados para entenderem a semântica HTML, portanto, a
+
+  article(class="section__article")
+    h3(class="section__article__title") Coloque âncoras no topo da página para partes importantes do seu site
+    p(class="section__content") Imagine um leitor de tela ter que ler cada menu e submenu da página, em um site de notícias que o usuário entrou para uma notícia específica? Por isso, é importante colocar, no topo, um link para a parte mais importante do site, no caso, a notícia principal
+
+  article(class="section__article")
+    h3(class="section__article__title") Coloque uma barra de acessibilidade no topo do site
+    p(class="section__content") Itens que precisam estar lá: alto contraste (colocar o fundo preto com letras brancas) e recurso para aumenta ou diminuir a fonte.
+
+  article(class="section__article")
+    h3(class="section__article__title") Recurso de alto contraste
+    p(class="section__content") Fundo preto, links geralmente amarelos, e contornos e linhas brancas, e letras brancas. Experimente, use este recurso neste site
+
+  article(class="section__article")
+    h3(class="section__article__title") Possibilite uma navegação via teclado
+    p(class="section__content") Ofereça uma navegação via teclado, a partir de teclas de atalhos e afins. Alguns leitores de tela, já vem com algumas teclas de atalho importantes, como vá para o conteúdo principal etc. Use também o atributo tabindex do HTML para possibilitar uma navegação hierárquica pela tecla TAB
+
+  article(class="section__article")
+    h3(class="section__article__title") Verifique o contraste textual do seu site
+    p(class="section__content") Há ferramentas interessantes, uma delas é o 
+      a(
+        href="http://www.checkmycolours.com/"
+        title="Ir para o site Check My Colours que tem uma ferramenta para testar o contraste textual"
+        class="section__link" target="blanck") Check My Colours
+
+  article(class="section__article")
+    h3(class="section__article__title") Coloque uma linguagem de sinais (libras) no site
+    p(class="section__content") Segundo a <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/L10436.htm" title="Ir para o site do Planalto na página da Lei 10.436/2002, que institui a linguagem de libras como a segunda oficial no Brasil" class="section__link" target="blanck">Lei 10.436/2002</a>, libras é a segunda língua oficial no país e para muitos surdos é a principal língua. Há uma plugin, o <a href="http://www.weblibras.com.br/" title="Ir para o site do Web Libras" class="section__link" target="blanck">ProfDeaf Web Libras</a> que faz isso para você. Há planos gratuitos a pagos
+
+  article(class="section__article")
+    h3(class="section__article__title") Não dependa de cores!
+    p(class="section__content") Assegure que a informação de um determinado elemento, como um link, não depende cores. Por exemplo, um botão que seja verde indicando uma ação positiva, poderá não ser interpretado completamente por um daltônico
+
+  p(class="section__content") A seguir, algumas recomendações da W3C para o desenvolvimento de sites acessíveis
+
+  include ../includes/link-menu.pug

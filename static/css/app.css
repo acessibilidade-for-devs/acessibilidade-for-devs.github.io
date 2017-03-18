@@ -302,9 +302,6 @@ table {
   position: relative; }
   .section.section--one {
     background-color: #63C8BA; }
-    .section.section--one .section__link {
-      color: inherit;
-      text-decoration: underline; }
   .section.section--three {
     background-color: #32383B; }
     .section.section--three .section__title,
@@ -317,8 +314,22 @@ table {
     margin-bottom: 1em; }
   .section .section__content {
     font-size: 1.1em; }
+    .section .section__content .section__link:hover {
+      color: inherit;
+      text-decoration: underline; }
     .section .section__content .section__content--bold {
       font-weight: bold; }
+
+.section .section__article {
+  border-radius: 2px;
+  padding: 1em;
+  margin: .4em 0; }
+  .section .section__article .section__article__title {
+    font-weight: bold;
+    font-size: 1.2em; }
+
+.section--four .section__article {
+  border: 1px solid #688CD2; }
 
 .link__menu {
   position: absolute;
@@ -330,7 +341,9 @@ table {
   .link__menu:hover {
     color: rgba(255, 255, 255, 0.5); }
 
-.section--two .link__menu {
+.section--two .link__menu,
+.section--four .link__menu {
   color: black; }
-  .section--two .link__menu:hover {
+  .section--two .link__menu:hover,
+  .section--four .link__menu:hover {
     color: rgba(0, 0, 0, 0.5); }
