@@ -4,9 +4,7 @@
   "description": "An acessibility guide for web developers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp",
-    "build": "gulp -p"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "EmanuelG",
   "license": "MIT",
