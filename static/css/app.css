@@ -364,6 +364,22 @@ table {
 .section--six .section__article {
   border: 1px solid #688CD2; }
 
+.footer {
+  position: relative;
+  padding: 2em; }
+  .footer .footer__title {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    text-align: center; }
+  .footer .footer__posters {
+    display: flex;
+    justify-content: center; }
+    .footer .footer__posters .footer__posters__poster {
+      max-width: 100px;
+      text-align: center; }
+      .footer .footer__posters .footer__posters__poster img {
+        border-radius: 100%; }
+
 .link__menu {
   position: absolute;
   bottom: 1em;
@@ -376,9 +392,11 @@ table {
 
 .section--two .link__menu,
 .section--four .link__menu,
-.section--six .link__menu {
+.section--six .link__menu,
+.footer .link__menu {
   color: black; }
   .section--two .link__menu:hover,
   .section--four .link__menu:hover,
-  .section--six .link__menu:hover {
+  .section--six .link__menu:hover,
+  .footer .link__menu:hover {
     color: rgba(0, 0, 0, 0.5); }
