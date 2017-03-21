@@ -1,18 +1,8 @@
-@-webkit-keyframes spinAround {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg); } }
-
 @keyframes spinAround {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    transform: rotate(0deg); }
   to {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg); } }
+    transform: rotate(359deg); } }
 
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 html,
@@ -60,15 +50,12 @@ textarea {
   margin: 0; }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 * {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+  box-sizing: inherit; }
   *:before, *:after {
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit; }
+    box-sizing: inherit; }
 
 img,
 embed,
@@ -132,7 +119,6 @@ a {
   color: #008873;
   cursor: pointer;
   text-decoration: none;
-  -webkit-transition: none 86ms ease-out;
   transition: none 86ms ease-out; }
   a:hover {
     color: #363636; }
@@ -307,7 +293,6 @@ table {
         width: 0;
         height: 2px;
         background-color: #00d1b2;
-        -webkit-transition: all .4s ease-in;
         transition: all .4s ease-in; }
       .header .header__menu .header__menu__link a:hover + span {
         width: 50%; }
@@ -387,19 +372,26 @@ table {
     margin-bottom: 1em;
     text-align: center; }
   .footer .footer__posters {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
     .footer .footer__posters .footer__posters__poster {
       max-width: 100px;
       text-align: center; }
       .footer .footer__posters .footer__posters__poster img {
         border-radius: 100%; }
+
+@media screen and (min-width: 1384px) {
+  .container {
+    width: 1344px; } }
+
+@media screen and (min-width: 1192px) {
+  .container {
+    width: 1152px; } }
+
+@media screen and (min-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    width: 960px; } }
 
 .link__menu {
   position: absolute;
