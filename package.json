@@ -1,32 +1,20 @@
 {
-  "name": "guia-acessibilidade-web",
-  "version": "2.0",
+  "name": "acessibilidade-for-devs.github.io",
+  "version": "1.0.0",
   "description": "An acessibility guide for web developers",
-  "main": "index.js",
+  "author": "Emanuel Souza",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "EmanuelG",
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "browser-sync": "^2.18.5",
-    "eslint": "^3.12.2",
-    "eslint-config-standard": "^7.0.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^2.1.1",
-    "glob": "^7.1.1",
-    "gulp": "^3.9.1",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-if": "^2.0.2",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-postcss": "^6.3.0",
-    "gulp-pug": "^3.2.0",
-    "gulp-sass": "^3.0.0",
-    "node-sass": "^4.1.1",
-    "yargs": "^6.6.0"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "dependencies": {
-    "bulma": "^0.3.2"
+    "bulma": "^0.7.5",
+    "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
   }
 }

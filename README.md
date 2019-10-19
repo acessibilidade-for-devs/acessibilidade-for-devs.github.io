@@ -1,9 +1,32 @@
-# Acessibilidade for Devs
+# Accessibility for Devs
 
-Olá! Bem vindo a este repositório. Gostaria de contribuir com ele? Dê uma olhada [aqui](CONTRIBUTING.md)
+An Accessibility Guide for Web Developers make yours sites more accesibles!
 
-Este site tem por objetivo servir como guia de aprendizado para Desenvolvedores Web no que diz respeito a acessibilidade em sites. Qualquer um pode contribuir para que este site cresça em conteúdo de qualidade.
+## Requirements
 
-Para rodar localmente, execute um `yarn` e depois de tudo instalado, execute `gulp` no terminal
+* Node.js installed with npm or yarn
 
-Para gerar o build, basta rodar o comando `gulp -p` no terminal e depois submeta seu pull request!
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install # npm install
+
+# serve with hot reload at localhost:8080
+$ yarn dev # npm run dev
+
+# build for production and launch server
+$ yarn build # npm run build
+```
+
+For detailed explanation on how things work, check out [Vuepress docs](https://vuepress.vuejs.org/).
+
+## Contribution Guide
+
+Want to contribute? Check [our ISSUES](https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io/issues)!
+
+After this, check our Contribution Guide for more informations.
+
+## License
+
+...
