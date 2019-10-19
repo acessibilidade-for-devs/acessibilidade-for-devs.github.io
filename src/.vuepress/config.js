@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   title: 'Guia de Acessibilidade na Web',
   description: 'Uma guia de acessbilidade para desenvolvedores web, aqui você encontra conteúdo de qualidade sobre o tema")',
@@ -37,7 +39,13 @@ module.exports = {
     }
   },
   plugins: [
-    ['@vuepress/back-to-top']
+    ['@vuepress/back-to-top'],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': process.env.GA
+      }
+    ]
   ],
   locales: {
     '/': {
