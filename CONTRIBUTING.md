@@ -1,11 +1,32 @@
-# Como contribuir com o site Guia de Acessibilidade na Web
+# How to contribute with Accessibility for Devs?
 
-Olá. Gostaria de agradecer desde já, pela confiança em nosso conteúdo. Lembre que este site foi feito por desenvolvedores para desenvolvedores, sendo assim, ele dá comunidade para a comunidade! Vamos as possibilidades de contribuição. Abaixo, entre colchetes, como você pode mandar, tanto o seu pull request, quanto colocar uma issue, siga o padrão abaixo:
+Hello Dev! We would like to thank you in advance for your willingness to contribute. This project uses [Vuepress](vuepress.vuejs.org) and [Vue.js](vuejs.org) files for componentization. So, the content structure of this project is:
 
-* [Bug]: houve algum bug no site? Se você resolveu, mande um pull, as pessoas irão agradecer!
+```sh
+src/
+---- README.md    # the website version in Portuguese
+---- en/README.md # the same website version in English
+---- .vuepress/   # vuepress folder with components, configurations and so on
+```
 
-* [Melhoria]: você viu algum conteúdo na internet e gostaria que ele estivesse aqui? Mande um pull request ou coloque uma issue com esta label.
+There is a couple ways to contribute with this guide:
 
-* [Revisão]: poxa, alguém escreveu um texto errado ou um link está quebrado :( Não tem problema, mande um pull request com as revisões!
+### Bug
 
-É isso ai. Espero que este guia tenha esclarecido como pode contribuir com este projeto. Valeu!
+Did you find a bug? Please submit a PR with correction or report as ISSUE.
+
+For PR, create a new branch called `hotfix/<short-branch-name>` with the correction.
+
+For ISSUE, don't forget the description of the bug and scenario to reproduce.
+
+### Improvements
+
+Did you see a content about Accessibility? Please submit a PR with a new branch called `feature/<short-branch-name>`. It's not necessary adding the new content in all translations.
+
+### Review content
+
+Did you find a error on content or a broken link? Please submit a PR with the correction. An another way to help us is with translations keep its in sync.
+
+### New translation
+
+Would you like a submit new translation? Follow the [Vuepress instructions for internacionalization](https://vuepress.vuejs.org/guide/i18n.html). Lastly, submit a PR with a new branch called `feature/<lang>-transtion`, like `feature/zh-translation`.
