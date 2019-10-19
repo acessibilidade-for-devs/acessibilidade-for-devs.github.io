@@ -29,4 +29,4 @@ After this, check our Contribution Guide for more informations.
 
 ## License
 
-...
+[MIT](LICENSE)
