@@ -2,16 +2,18 @@
   "name": "acessibilidade-for-devs.github.io",
   "version": "1.0.0",
   "description": "An acessibility guide for web developers",
-  "author": "Emanuel Souza",
-  "private": true,
+  "author": "Emanuel Souza <emanuelgdesouza@gmail.com>",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "push:release": "push-dir --dir=build --branch=master",
+    "release": "yarn build ; yarn push:release"
   },
   "dependencies": {
     "vuepress": "^1.2.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1"
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "push-dir": "^0.4.1"
   }
 }
