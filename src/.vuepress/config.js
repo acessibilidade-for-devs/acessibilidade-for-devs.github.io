@@ -4,9 +4,22 @@ module.exports = {
   title: 'Guia de Acessibilidade na Web',
   description: 'Uma guia de acessbilidade para desenvolvedores web, aqui você encontra conteúdo de qualidade sobre o tema")',
   head: [
-    ['link', { rel: 'icon', href: `/logo.png` }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#151A24' }]
+    ['link', {
+      rel: 'icon',
+      href: `/logo.png`
+    }],
+    ['link', {
+      rel: 'manifest',
+      href: '/manifest.json'
+    }],
+    ['meta', {
+      name: 'theme-color',
+      content: '#151A24'
+    }],
+    ['script', {
+      src: 'https://kit.fontawesome.com/d028c48977.js',
+      crossorigin: 'anonymous'
+    }]
   ],
   themeConfig: {
     smoothScroll: true,
