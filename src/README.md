@@ -229,3 +229,4 @@ A seguir, links interessantes para você estudar e ver alguns exemplos práticos
 * [Validação de Código CSS da W3C](https://jigsaw.w3.org/css-validator/);
 * [Site Awesome A11y](https://brunopulis.com/awesome-a11y/);
 * [Conheça o projeto A11y](https://a11yproject.com/).
+* [Páginas Acessíveis](http://talitapagani.com/paginas-acessiveis/).
