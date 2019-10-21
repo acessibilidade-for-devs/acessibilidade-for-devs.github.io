@@ -4,4 +4,4 @@
   contributeMessage="Contribute with this project"
 />
 
-Help us! Fork [this project](https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io) and see that the Contribute Guide.
+Help us! Fork [this project](https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io) and see the [Contribute Guide](https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io/blob/develop/CONTRIBUTING.md).
