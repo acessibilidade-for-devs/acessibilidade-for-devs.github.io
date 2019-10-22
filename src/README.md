@@ -219,6 +219,15 @@ A seguir, links interessantes para você estudar e ver alguns exemplos práticos
 * [Um descrição detelhada de cada estado e propriedade direto da documentação da W3C](https://www.w3.org/TR/wai-aria-1.1/#states_and_properties)
 * [Descrição detelhada de cada role direto da documentação da W3C](https://www.w3.org/TR/wai-aria-1.1/#roles)
 
+## Ferramentas de Acessibilidade
+
+### Ferramentas para teste
+
+* [axe](https://www.deque.com/axe/)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+* [Toolkit da Microsoft](https://accessibilityinsights.io/)
+* [Série de Patters do Ebay](http://ebay.github.io/mindpatterns/index.html)
+
 ## Onde encontrar mais conteúdo?
 
 * [Todos por Acessibilidade](http://acessibilida.de/);
