@@ -228,6 +228,10 @@ A seguir, links interessantes para você estudar e ver alguns exemplos práticos
 * [Toolkit da Microsoft](https://accessibilityinsights.io/)
 * [Série de Patters do Ebay](http://ebay.github.io/mindpatterns/index.html)
 
+## Iniciativas para se acompanhar
+
+* [Movimento web para todos](https://mwpt.com.br/)
+
 ## Onde encontrar mais conteúdo?
 
 * [Todos por Acessibilidade](http://acessibilida.de/);
