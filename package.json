@@ -13,7 +13,7 @@
     "vuepress": "^1.2.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "dotenv": "^8.2.0",
     "push-dir": "^0.4.1"

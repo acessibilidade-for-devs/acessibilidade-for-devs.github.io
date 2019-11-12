@@ -881,10 +881,10 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-back-to-top@^1.0.0-rc.1":
-  version "1.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.0.0-rc.1.tgz#91fb693f3c7d7a9d8019842bb061ad756445e4ca"
-  integrity sha512-6XQfuNDLbfjOyxrVcgD09shPiFjc/YTkhAUMRrnkEfq1Uacaw9idr9BlCt+92Co3auIB15x7hsgyPr0es+PPNQ==
+"@vuepress/plugin-back-to-top@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.2.0.tgz#f6bb2f57317e94a6b0b6854719f3088481f2c0dd"
+  integrity sha512-QGFT5llXnqs/nrUmNql4jZuqo5VTKx/hsK9j1uNRdGBkyiqMs6h+brSpwTKtUqh/XwsCGn7FGPZLaYNkw7Oi8w==
   dependencies:
     lodash.debounce "^4.0.8"
 
