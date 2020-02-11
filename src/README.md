@@ -233,6 +233,7 @@ A seguir, links interessantes para você estudar e ver alguns exemplos práticos
 * [Movimento web para todos](https://mwpt.com.br/)
 * [Dosvox - Sistema Operacional para deficientes visuais](http://intervox.nce.ufrj.br/dosvox/)
 * [Bold - Um Design System focado em Acessibilidade](https://bold.bridge.ufsc.br/en/)
+* [Accessible App](https://accessible-app.com/)
 
 ## Onde encontrar mais conteúdo?
 
