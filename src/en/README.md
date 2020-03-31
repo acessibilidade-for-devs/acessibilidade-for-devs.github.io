@@ -209,7 +209,7 @@ HTML 5 made the web very semantic, bringing new tags such as header, footer, nav
 * **Document Structure Roles**: define structural content of the page, such as header and articles;
 * **Landmark Roles**: define navigation areas on the page;
 
-### Estados e propriedades
+### States and properties
 
 A given element can assume a certain state. For that, there are ***arias***, which define a certain property and for that, a certain state. Example: a modal popup that will have the haspopup property and can be set to true or false. This makes it easier for the screen reader to identify that element, a div for example, is a popup modal, which is activated or not
 
