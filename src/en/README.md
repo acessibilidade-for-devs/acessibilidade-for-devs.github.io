@@ -143,3 +143,108 @@ Tip 2: as already exposed here, offer a possibility to put sign language.
 Tip 1: use HTML semantics a lot.
 
 Tip 2: as I said here and I repeat: do not make the content depend on its shape, color or any characteristic that depends on vision or hearing.
+
+#### Guideline 1.4 – discernible
+
+Tip 1: provide ways for the user to modify the font size
+
+Tip 2: provide ways for the user to give high contrast on the page
+
+Tip 3: if the site has automatic audio, after 3 seconds the user must have a way to control this audio
+
+Tip 4: the page must have a contrast for reading.
+
+### Operable: content must be accessible so that any user can interact with it
+
+#### Guideline 2.1 – accessible via keyboard
+
+Tip 1: offer alternative keyboard navigation. Remember: links, by default, already receive focus, buttons too.
+
+Tip 2: do not let the user be blocked on the page due to the lack of a keyboard.
+
+#### Guideline 2.2 – enough time: give the user enough time to browse the page and read the content
+
+#### Guideline 2.3 – seizures: do not place elements on the page that blink more than 3 times in a second. Who does not remember the controversial case involving the Pokémon cartoon
+
+#### Guideline 2.4 – enough time: give the user enough time to browse the page and read the content
+
+Tip 1: place a link at the top of the page to the main content
+
+Tip 2: always use headings to structure the section headings of the page
+
+Tip 3: create a logical sequence between page links
+
+Tip 4: use breadcrumbs at the top of the section to let the user know where he is on the page, or on a set of pages
+
+### Understandable: the entire interface needs to be intuitive, understandable
+
+#### Guideline 3.1 – readable: use the HTML lang attribute so that screen reading mechanisms can know what language that page is in
+
+#### Guideline 3.2 – predictable:
+
+Tip 1: do not create *dropdown* menus that allow the user to hover, the related links are shown below, making it difficult to interact
+
+Tip 2: do not modify a state automatically unless you tell the user that it will happen
+
+#### Guideline 3.3 – Entry assistance
+
+Tip 1: provide mechanisms so that the user does not make mistakes
+
+Tip 2: in case the user makes mistakes, inform him which mistake he made and how to correct it
+
+### Robust: Content must be placed so that any user can access it with any web access technology
+
+#### Guideline 4.1 – compatible: use and abuse HTML semantics and build pages that can be compatible with most devices, including assistive technologies
+
+Incredible content was built by [Marcelo Sales](https://twitter.com/msales) what is [All for Accessibility](http://acessibilida.de/). Be sure to check it out!
+
+## WAI-ARIA – Making the Web even more semantic
+
+HTML 5 made the web very semantic, bringing new tags such as header, footer, nav, section, aside, among others. However, there are situations in which these elements are insufficient for screen readers, such as a drop-down menu. Then came the WAI-ARIA. Her goal is to make web content more accessible to assistive technologies, such as screen readers. It is a recommendation of the W3C, and does not depend on the HTML version, being used outside of HTML 5. Some elements of WAI-ARIA:
+
+### Roles
+
+* **Abstract Roles**: define general concepts;
+* **Widgets Roles**: define user interface widgtes. Usually loose interfaces, like dialog and alerts;
+* **Document Structure Roles**: define structural content of the page, such as header and articles;
+* **Landmark Roles**: define navigation areas on the page;
+
+### Estados e propriedades
+
+A given element can assume a certain state. For that, there are ***arias***, which define a certain property and for that, a certain state. Example: a modal popup that will have the haspopup property and can be set to true or false. This makes it easier for the screen reader to identify that element, a div for example, is a popup modal, which is activated or not
+
+The following are interesting links for you to study and see some practical examples of how to apply WAI-ARIA in your HTML, as well as the link to the W3C documentation
+
+* [Slides from a conference held byTalita Paggani](http://slides.com/talitapagani/wcag-aria-webbr2015#/1)
+* [Very interesting Tableless article](https://tableless.com.br/wai-aria-estendendo-o-significado-das-interacoes/)
+* [A detailed description of each state and property directly from the W3C documentation](https://www.w3.org/TR/wai-aria-1.1/#states_and_properties)
+* [Detailed description of each role directly from the W3C documentation](https://www.w3.org/TR/wai-aria-1.1/#roles)
+
+## Accessibility Tools
+
+### Testing tools
+
+* [axe](https://www.deque.com/axe/)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+* [Toolkit da Microsoft](https://accessibilityinsights.io/)
+* [Ebay Patters Series](http://ebay.github.io/mindpatterns/index.html)
+
+## Initiatives to accompany
+
+* [Web movement for all](https://mwpt.com.br/)
+* [Dosvox - Operating system for the visually impaired](http://intervox.nce.ufrj.br/dosvox/)
+* [Bold - A Design System focused on Accessibility](https://bold.bridge.ufsc.br/en/)
+* [Accessible App](https://accessible-app.com/)
+
+## Where to find more content?
+
+* [All for Accessibility](http://acessibilida.de/);
+* [Legal Accessibility Site](http://www.acessibilidadelegal.com/);
+* [Bengal Legal website](http://www.bengalalegal.com/acessibilidade);
+* [CSS Techniques for Accessibility on Maujor's website](https://www.maujor.com/w3c/tec_css_acess.html);
+* [W3C HTML Code Validation](https://validator.w3.org/);
+* [W3C CSS Code Validation](https://jigsaw.w3.org/css-validator/);
+* [Awesome A11y website](https://brunopulis.com/awesome-a11y/);
+* [Meet the A11y project](https://a11yproject.com/).
+* [Accessible Pages](http://talitapagani.com/paginas-acessiveis/).
+* [Accessibility for teams](https://accessibility-for-teams.com/)
