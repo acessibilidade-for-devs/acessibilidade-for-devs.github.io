@@ -2,6 +2,7 @@
   title="Accessible Internet"
   subtitle="Accessibility Guide for Web Developers"
   contributeMessage="Contribute with this project"
+  link="https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io/blob/develop/CONTRIBUTING.md"
 />
 
 Hello! Have you ever stopped to think about how a visually impaired person can access web content on your website? Or how can a hearing impaired understand a video on YouTube? There are a lot of people working so that people with disabilities (and not a few) can access the internet so that the content can be accessible to them. But if you have done a little research on the topic, you know that it is very diffuse on the web, and a little complicated to understand, not to mention the extensive W3C documentation. This guide is intended for anyone who wants to understand how to make network content accessible. And I just ask you a favor: share this information and contribute, increasing the content or sharing it, so that it can grow more and more.
