@@ -4,9 +4,10 @@ Um guia de acessibilidade para desenvolvedores Web tornarem seus sites mais aces
 
 ## Requisitos
 
-* Node.js instalado junto com npm ou yarn
+- Node.js
+- npm or yarn
 
-## Configuração da compilação
+## Configuração para compilação
 
 ``` bash
 # instalando dependencias
@@ -23,9 +24,9 @@ Para obter explicações detalhadas sobre como as coisas funcionam, confira [Vue
 
 ## Guia de contrinuição
 
-Deseja contribuir? De uma olhada [aqui](https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io/issues)!
+Deseja contribuir? Dê uma olhada [aqui](https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io/issues)!
 
-After this, check our Contribution Guide for more informations.
+Depois disso, dê uma olhada no nosso guia de contribuição para mais informações
 
 ## License
 

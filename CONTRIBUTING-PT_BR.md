@@ -5,7 +5,7 @@ Olá Dev! Agradecemos desde já a sua disposição em contribuir. Este projeto u
 ```sh
 src/
 ---- README.md    # Versão do site em Português
----- en/README.md # A mesma versão porém em Inglish
+---- en/README.md # A mesma versão porém em English
 ---- .vuepress/   # Pasta vuepress com componentes, configurações e assim por diante
 ```
 
@@ -29,4 +29,4 @@ Você encontrou um erro no conteúdo ou um link quebrado? Envie um PR com a corr
 
 ### Nova tradução
 
-Você gostaria de enviar uma nova tradução? Siga o [Instruções do Vuepress para internacionalização](https://vuepress.vuejs.org/guide/i18n.html). Por fim, envie um PR com uma nova branch chamada `feature/<lang>-transtion`, por exemplo `feature/zh-translation`.
+Você gostaria de enviar uma nova tradução? Siga o [Instruções do Vuepress para internacionalização](https://vuepress.vuejs.org/guide/i18n.html). Por fim, envie um PR com uma nova branch chamada `feature/<lang>-translation`, por exemplo `feature/zh-translation`.
