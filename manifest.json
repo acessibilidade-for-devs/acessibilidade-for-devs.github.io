@@ -1,0 +1,10 @@
+{
+  "name": "Acessibility Guide for Web Developers",
+  "short_name": "accessibility-guide",
+  "theme_color": "#151A24",
+  "background_color": "#151A24",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "splash_pages": null
+}
