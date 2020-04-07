@@ -10,7 +10,7 @@
       </h2>
 
       <a
-        href="https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io"
+        :href="link"
         :title="contributeMessage"
         target="_blanck"
       >
@@ -36,6 +36,10 @@ export default {
       required: true
     },
     contributeMessage: {
+      type: String,
+      required: true
+    },
+    link: {
       type: String,
       required: true
     }

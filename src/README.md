@@ -2,6 +2,7 @@
   title="Internet Acessível"
   subtitle="Guia de Acessibilidade para Desenvolvedores Web"
   contributeMessage="Contribua com o projeto"
+  link="https://github.com/acessibilidade-for-devs/acessibilidade-for-devs.github.io/blob/develop/CONTRIBUTING-PT_BR.md"
 />
 
 Olá! Você já parou para pensar em como um deficiente visual consegue acessar um conteúdo web em seu site? Ou como um deficiente auditivo pode entender um vídeo no YouTube? Há muita gente trabalhando para que pessoas com deficiência (e não são poucas) possam acessar a internet de forma que o conteúdo possa ser acessível a elas. Mas se você já pesquisou um pouco sobre o tema, sabe que ele é muito difuso na rede, e meio complicado de compreendê-lo, isso sem contar a documentação extensa da W3C. Este guia se destina a qualquer pessoa que queira compreender como transformar o conteúdo da rede em um conteúdo acessível. E só te peço um favor: compartilhe esta informação e contribua, aumentando o conteúdo ou o compartilhando, para que ela possa crescer mais e mais.
