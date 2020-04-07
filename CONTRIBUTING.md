@@ -29,4 +29,4 @@ Did you find a error on content or a broken link? Please submit a PR with the co
 
 ### New translation
 
-Would you like a submit new translation? Follow the [Vuepress instructions for internacionalization](https://vuepress.vuejs.org/guide/i18n.html). Lastly, submit a PR with a new branch called `feature/<lang>-transtion`, like `feature/zh-translation`.
+Would you like a submit new translation? Follow the [Vuepress instructions for internacionalization](https://vuepress.vuejs.org/guide/i18n.html). Lastly, submit a PR with a new branch called `feature/<lang>-translation`, like `feature/zh-translation`.

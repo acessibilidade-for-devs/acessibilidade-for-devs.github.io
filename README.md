@@ -4,7 +4,8 @@ An Accessibility Guide for Web Developers make yours sites more accesibles!
 
 ## Requirements
 
-* Node.js installed with npm or yarn
+* Node.js
+* npm or yarn
 
 ## Build Setup
 
