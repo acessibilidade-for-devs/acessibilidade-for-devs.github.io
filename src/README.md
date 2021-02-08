@@ -244,7 +244,7 @@ A seguir, links interessantes para você estudar e ver alguns exemplos práticos
 * [Técnicas CSS para Acessibilidade no site do Maujor](https://www.maujor.com/w3c/tec_css_acess.html);
 * [Validação de Código HTML da W3C](https://validator.w3.org/);
 * [Validação de Código CSS da W3C](https://jigsaw.w3.org/css-validator/);
-* [Site Awesome A11y](https://brunopulis.com/awesome-a11y/);
+* [Site Awesome A11y](https://github.com/brunopulis/awesome-a11y/);
 * [Conheça o projeto A11y](https://a11yproject.com/).
 * [Páginas Acessíveis](http://talitapagani.com/paginas-acessiveis/).
 * [Accessibility for teams (Em inglês)](https://accessibility-for-teams.com/)
