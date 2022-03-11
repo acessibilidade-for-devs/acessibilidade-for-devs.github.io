@@ -128,7 +128,7 @@ Dica 4: o elemento não textual que deve ser ignorado pelas tecnologias assistiv
 
 ```css
 div {
-  background: ulr(‘imagens/minha_imagem.jpg’) no-repeat;
+  background: url(‘imagens/minha_imagem.jpg’) no-repeat;
 }
 ```
 
